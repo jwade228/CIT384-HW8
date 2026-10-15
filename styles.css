@@ -64,6 +64,27 @@ a:hover {
 }
 
 
+.main-nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 15px;
+    text-align: center;
+    background: #102A43;
+}
+
+.main-nav a {
+    display: inline-block;
+    margin: 0 12px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.main-nav a:hover {
+    color: #FF6F61;
+}
+
 /* Header & Footer 
 ------------------------------------*/
 
@@ -144,6 +165,11 @@ footer h2 {
     border-radius: 5px;
 }
 
+.contact-info i {
+    margin-right: 6px;
+    color: #FF6F61;
+}
+
 .contact-info a:hover {
     background: #102A43;
     color: white;
@@ -154,13 +180,23 @@ footer h2 {
 
 .work-experience {
     padding: 4rem 8%;
-    background: #E5F4F3;
+     background-image:
+        linear-gradient(
+            rgba(16, 42, 67, 0.88),
+            rgba(25, 134, 144, 0.82)
+        ),
+        url("background.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    color: white;
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
 }
 
 .work-experience h2 {
-    color: #198690;
+    color: white;
 }
 
 .work-experience li {
@@ -209,5 +245,9 @@ footer h2 {
     header img {
         width: 125px;
         height: 125px;
+    }
+        .main-nav a {
+        display: block;
+        margin: 8px 0;
     }
 }
