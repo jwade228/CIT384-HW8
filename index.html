@@ -3,20 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Jeremiah Wade | Resume</title>
 
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Font Awesome icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
-    <header>
+
+    <!-- Sticky navigation menu -->
+    <nav class="main-nav">
+        <a href="#about">About</a>
+        <a href="#work">Work Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+        <a href="Jeremiah-Wade-Resume.pdf" download>
+            Download Resume
+        </a>
+    </nav>
+
+    <header id="about">
         <div class="content-wrap">
-            <img class="profile-img column-narrow"
-                 src="CITResume.JPG"
-                 alt="Jeremiah Wade">
+            <img
+                class="profile-img column-narrow"
+                src="CITResume.JPG"
+                alt="Jeremiah Wade">
 
             <div class="column-wide">
                 <h1>Jeremiah Wade</h1>
+
                 <h2>Computer Information Technology Student</h2>
 
                 <p>
@@ -32,7 +52,7 @@
     </header>
 
     <main>
-        <section class="work-experience">
+        <section id="work" class="work-experience">
             <div class="content-wrap">
                 <h2>Work Experience</h2>
 
@@ -58,10 +78,12 @@
                                 Communicate with customers and team members to
                                 complete orders and tasks on time.
                             </li>
+
                             <li>
                                 Handle multiple tasks simultaneously in a
                                 fast-paced environment.
                             </li>
+
                             <li>
                                 Follow food-safety protocols, cleanliness
                                 procedures, and workplace safety standards.
@@ -72,13 +94,19 @@
             </div>
         </section>
 
-        <section class="education">
+        <section id="education" class="education">
             <div class="content-wrap">
                 <h2>Education</h2>
 
                 <h3>California State University, Northridge</h3>
-                <p>Bachelor of Science in Computer Information Technology</p>
-                <p>Minor in Criminal Justice Studies</p>
+
+                <p>
+                    Bachelor of Science in Computer Information Technology
+                </p>
+
+                <p>
+                    Minor in Criminal Justice Studies
+                </p>
 
                 <p>
                     Relevant coursework includes Data Structures, Computer
@@ -89,24 +117,29 @@
         </section>
     </main>
 
-    <footer>
+    <footer id="contact">
         <div class="content-wrap">
             <h2>Let's Keep in Touch!</h2>
 
             <div class="contact-info">
                 <a href="mailto:jeremiah.wade.638@my.csun.edu">
-                    jeremiah.wade.638@my.csun.edu
+                    <i class="fa-solid fa-envelope"></i>
+                    Email
                 </a>
 
-                <a href="https://github.com/jwade228"
-                   target="_blank"
-                   rel="noopener">
+                <a
+                    href="https://github.com/jwade228"
+                    target="_blank"
+                    rel="noopener">
+                    <i class="fa-brands fa-github"></i>
                     GitHub
                 </a>
 
-                <a href="https://www.linkedin.com/in/jeremiah-wade-3445373a5/?isSelfProfile=true"
-                   target="_blank"
-                   rel="noopener">
+                <a
+                    href="https://www.linkedin.com/in/jeremiah-wade-3445373a5/"
+                    target="_blank"
+                    rel="noopener">
+                    <i class="fa-brands fa-linkedin"></i>
                     LinkedIn
                 </a>
             </div>
@@ -114,6 +147,6 @@
             <p>Copyright 2026 by Jeremiah Wade</p>
         </div>
     </footer>
-</body>
 
+</body>
 </html>
